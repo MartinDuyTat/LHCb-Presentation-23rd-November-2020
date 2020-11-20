@@ -1,0 +1,8 @@
+#!/bin/bash
+pdflatex "$1"
+MPFILES=`ls *.mp`
+for MP in ${MPFILES}; do
+  mpost ${MP}
+done
+pdflatex "$1"
+evince *.pdf
