@@ -258,15 +258,15 @@
     \centering
     \vspace{-0.2cm}
     \begin{subfigure}{0.46\textwidth}
-      \includegraphics[width = 1.0\textwidth]{Contour_dB_vs_gamma_1K.png}
+      \includegraphics[width = 1.0\textwidth]{Contour_dB_vs_gamma_10K.png}
       \caption{$\gamma$ vs $\delta_B$}
     \end{subfigure}%
     \begin{subfigure}{0.46\textwidth}
-      \includegraphics[width = 1.0\textwidth]{Contour_gamma_vs_rB_1K.png}
+      \includegraphics[width = 1.0\textwidth]{Contour_gamma_vs_rB_10K.png}
       \caption{$\gamma$ vs $r_B$}
     \end{subfigure}
     \begin{subfigure}{0.46\textwidth}
-      \includegraphics[width = 1.0\textwidth]{Contour_rB_vs_dB_1K.png}
+      \includegraphics[width = 1.0\textwidth]{Contour_rB_vs_dB_10K.png}
       \caption{$r_B$ vs $\delta_B$}
     \end{subfigure}
   \end{figure}
@@ -358,6 +358,7 @@
   \begin{itemize}
     \item{Define binning scheme in terms of these coordinates}
     \item{Ideally have a constant strong phase difference in each bin}
+    \item{Determine binning scheme based on amplitude model, but final fit is model independent}
   \end{itemize}
 \end{frame}
 
@@ -373,6 +374,23 @@
   \begin{figure}
     \includegraphics[width = 1\textwidth]{strongphasecut.png}
   \end{figure}
+\end{frame}
+
+\begin{frame}{Summary and next steps}
+  Summary:
+  \begin{itemize}
+    \item{Model independent determination of $\gamma$ from $B^\pm\to(K^+K^-\pi^+\pi^-)_DK^\pm$ decay}
+    \item{External input from BES III}
+    \item{Precision from unbinned fit with $\SI{2e3}{}$ events: $\sigma(\gamma)\approx\SI{11}{\degree}$}
+    \item{Binned fit in $5$ dimensions, need to understand phase space}
+  \end{itemize}
+  Next steps:
+  \begin{itemize}
+    \item{Finish mapping out phase spaace}
+    \item{Decide on a suitable binning scheme}
+    \item{Look at data from BES III}
+    \item{Look at LHCb data}
+  \end{itemize}
 \end{frame}
 
 \end{document}
