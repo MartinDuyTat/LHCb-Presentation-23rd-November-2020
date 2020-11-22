@@ -186,18 +186,18 @@
   \begin{itemize}
     \item{Estimated $2000$ events from LHCb Run $1$ and $2$}
     \vspace{0.2cm}
-    \item{First proposed by G. Wilkinson and J. Rademacker (arXiv:hep-ph/0611272)}
+    \item{First proposed by G. Wilkinson and J. Rademacker \href{https://arxiv.org/abs/hep-ph/0611272}{arXiv:hep-ph/0611272}}
     \begin{itemize}
-      \item{Estimated $\gamma$ precision: $\SI{14}{\degree}$ with $1000$ events}
       \item{Amplitude analysis: Isobar model}
+      \item{Estimated $\gamma$ precision: $\SI{14}{\degree}$ with $1000$ events}
     \end{itemize}
     \vspace{0.2cm}
-    \item{CLEO amplitude analysis (arXiv:1201.5716)}
+    \item{CLEO amplitude analysis \href{https://arxiv.org/abs/1201.5716}{arXiv:1201.5716}}
     \begin{itemize}
       \item{Estimated $\gamma$ precision: $\SI{11}{\degree}$ with $2000$ events}
     \end{itemize}
     \vspace{0.2cm}
-    \item{LHCb amplitude analysis (arXiv:1811.08304)}
+    \item{LHCb amplitude analysis \href{https://arxiv.org/abs/1811.08304}{arXiv:1811.08304}}
     \begin{itemize}
       \item{AmpGen for generating events and unbinned fit}
     \end{itemize}
@@ -211,7 +211,13 @@
 \end{frame}
 
 \begin{frame}{Unbinned fit with amplitude model}
+  \begin{align*}
+    \mathcal{A}(B^-\to(K^+K^-\pi^+\pi^-)_DK^-) =& \mathcal{A}_B\mathcal{A}(D^0\to K^+K^-\pi^+\pi^-) \\
+  +& \mathcal{A}_B\mathcal{A}(\bar{D^0}\to K^+K^-\pi^+\pi^-)r_Be^{i(\delta_B - \gamma)}
+  \end{align*}
   \begin{itemize}
+    \item{$\mathcal{A}(D\to K^+K^-\pi^+\pi^-)$ obtained from amplitude model}
+    \item{Fit with $\gamma$, $\delta_B$ and $r_B$ as free parameters}
     \item{Initial values:}
     \begin{itemize}
       \item{$\gamma = \SI{75}{\degree}$}
@@ -276,8 +282,8 @@
 \begin{frame}{Binned fit of $D\to K^+K^-\pi^+\pi^-$}
   \vspace{-0.5cm}
   \begin{align*}
-    \mathcal{A}(B^-\to(K^+K^-\pi^+\pi^-)_DK^-)\propto& \mathcal{A}(D^0\to K^+K^-\pi^+\pi^-) \\
-  +& \mathcal{A}(\bar{D^0}\to K^+K^-\pi^+\pi^-)r_Be^{i(\delta_B - \gamma)}
+    \mathcal{A}(B^-\to(K^+K^-\pi^+\pi^-)_DK^-) =& \mathcal{A}_B\mathcal{A}(D^0\to K^+K^-\pi^+\pi^-) \\
+  +& \mathcal{A}_B\mathcal{A}(\bar{D^0}\to K^+K^-\pi^+\pi^-)r_Be^{i(\delta_B - \gamma)}
   \end{align*}
   \vspace{-0.5cm}
   \begin{block}{Event yield in bin $i$}
@@ -289,7 +295,7 @@
   \end{block}
   \begin{itemize}
     \item{$c_i$, $s_i$: Amplitude-averaged strong phase difference of $D$ decay}
-    \item{Measure $c_i$ and $s_i$ at BES III detetector}
+    \item{Measure $c_i$ and $s_i$ at BES III detector}
     \item{Can measure $K_i$ and $\bar{K_i}$ at both LHCb and BES III}
     \item{Need to divide phase space into bins}
   \end{itemize}
@@ -349,7 +355,7 @@
   \begin{block}{Phase space parameterisation}
     \begin{align*}
       x_1 =& m(K^+\pi^+) + \alpha \\
-      x_2 =& m(K^-\pi^-) + \alpha, \quad \alpha = \text{min}(m\big(K^+\pi^+), m(K^-\pi^-)\big) \\
+      x_2 =& m(K^-\pi^-) + \alpha, \quad \alpha = \text{min}\big(m(K^+\pi^+), m(K^-\pi^-)\big) \\
       x_3 =& \cos(\theta_+), \quad \text{(Helicity angles)} \\
       x_4 =& \cos(\theta_-) \\
       x_5 =& \phi \\
