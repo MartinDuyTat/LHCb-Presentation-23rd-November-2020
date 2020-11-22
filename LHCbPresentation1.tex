@@ -27,6 +27,11 @@
 \usepackage{chemfig}
 \usepackage[version=3]{mhchem}
 
+\usepackage{hyperref}
+  \hypersetup{colorlinks=true}
+  \hypersetup{urlcolor=blue}
+  \hypersetup{linkcolor = .}
+\usepackage{xcolor}
 \usepackage{siunitx}
   \sisetup{separate-uncertainty = true}
 \usepackage{physics}
@@ -171,7 +176,7 @@
     \vspace{0.3cm}
     Inteference when $D^0$ and $\bar{D^0}$ decay into a common final state\\
     \vspace{0.3cm}
-    Single most precise measurement: $\gamma = (68.7^{+5.2}_{-5.1})^\circ$ (arXiv:2010.08483) \\
+    Single most precise measurement: $\gamma = (68.7^{+5.2}_{-5.1})^\circ$ \href{https://arxiv.org/abs/2010.08483}{arXiv:2010.08483} \\
     $B^\pm\to DK^\pm$, $B^\pm\to D\pi^\pm$, $D\to K_S^0h^+h^-$
   \end{center}
 \end{frame}
@@ -179,10 +184,28 @@
 \section{The \texorpdfstring{$D\to K^+K^-\pi^+\pi^-$}{D to K+K-pi+pi-} decay}
 \begin{frame}{The $D\to K^+K^-\pi^+\pi^-$ decay}
   \begin{itemize}
-    \item{First described by Guy Wilkinson and Jonas Rademacker (arXiv:hep-ph/0611272)}
+    \item{Estimated $2000$ events from LHCb Run $1$ and $2$}
+    \vspace{0.2cm}
+    \item{First proposed by G. Wilkinson and J. Rademacker (arXiv:hep-ph/0611272)}
     \begin{itemize}
-      \item{Estimated precision: $\SI{14}{\degree}$ with $1000$ events}
+      \item{Estimated $\gamma$ precision: $\SI{14}{\degree}$ with $1000$ events}
       \item{Amplitude analysis: Isobar model}
+    \end{itemize}
+    \vspace{0.2cm}
+    \item{CLEO amplitude analysis (arXiv:1201.5716)}
+    \begin{itemize}
+      \item{Estimated $\gamma$ precision: $\SI{11}{\degree}$ with $2000$ events}
+    \end{itemize}
+    \vspace{0.2cm}
+    \item{LHCb amplitude analysis (arXiv:1811.08304)}
+    \begin{itemize}
+      \item{AmpGen for generating events and unbinned fit}
+    \end{itemize}
+    \vspace{0.2cm}
+    \item{Other $4$-body decay studies:}
+    \begin{itemize}
+      \item{Binned analysis of $K_S^0\pi^+\pi^-\pi^0$ by Belle \href{https://arxiv.org/abs/1908.09499}{arXiv:1908.09499}}
+      \item{Inclusive analysis of $h^\pm\pi^\mp\pi^+\pi^-$ \href{https://arxiv.org/abs/1906.08297}{arXiv:1906.08297}, \href{https://arxiv.org/abs/1709.05855}{arXiv:1709.05855}, \href{https://arxiv.org/abs/1603.08993}{arXiv:1603.08993} by LHCb}
     \end{itemize}
   \end{itemize}
 \end{frame}
