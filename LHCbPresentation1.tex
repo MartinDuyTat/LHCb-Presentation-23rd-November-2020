@@ -288,9 +288,91 @@
     $x_\pm = r_B\cos(\delta_B\pm\gamma), \quad y_\pm = r_B\sin(\delta_B\pm\gamma)$
   \end{block}
   \begin{itemize}
+    \item{$c_i$, $s_i$: Amplitude-averaged strong phase difference of $D$ decay}
     \item{Measure $c_i$ and $s_i$ at BES III detetector}
     \item{Can measure $K_i$ and $\bar{K_i}$ at both LHCb and BES III}
+    \item{Need to divide phase space into bins}
   \end{itemize}
+\end{frame}
+
+\begin{frame}{Pull study with $\SI{2e3}{}$ events}
+  \begin{figure}
+    \centering
+    \vspace{-0.2cm}
+    \begin{subfigure}{0.5\textwidth}
+      \includegraphics[width = 1.0\textwidth]{xplus1K1K.png}
+      \caption{$x_+$ pull}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+      \includegraphics[width = 1.0\textwidth]{xminus1K1K.png}
+      \caption{$x_-$ pull}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+      \includegraphics[width = 1.0\textwidth]{yplus1K1K.png}
+      \caption{$y_+$ pull}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+      \includegraphics[width = 1.0\textwidth]{yminus1K1K.png}
+      \caption{$y_-$ pull}
+    \end{subfigure}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Pull study with $\SI{2e4}{}$ events}
+  \begin{figure}
+    \centering
+    \vspace{-0.2cm}
+    \begin{subfigure}{0.5\textwidth}
+      \includegraphics[width = 1.0\textwidth]{xplus10K1K.png}
+      \caption{$x_+$ pull}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+      \includegraphics[width = 1.0\textwidth]{xminus10K1K.png}
+      \caption{$x_-$ pull}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+      \includegraphics[width = 1.0\textwidth]{yplus10K1K.png}
+      \caption{$y_+$ pull}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+      \includegraphics[width = 1.0\textwidth]{yminus10K1K.png}
+      \caption{$y_-$ pull}
+    \end{subfigure}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Parameterisation of phase space}
+  \begin{itemize}
+    \item{$4$-body phase space is $5$-dimensional}
+    \item{Convenient to choose rectangular coordinates}
+  \end{itemize}
+  \begin{block}{Phase space parameterisation}
+    \begin{align*}
+      x_1 =& m(K^+\pi^+) + \alpha \\
+      x_2 =& m(K^-\pi^-) + \alpha, \quad \alpha = \text{min}(m\big(K^+\pi^+), m(K^-\pi^-)\big) \\
+      x_3 =& \cos(\theta_+), \quad \text{(Helicity angles)} \\
+      x_4 =& \cos(\theta_-) \\
+      x_5 =& \phi \\
+    \end{align*}
+  \end{block}
+  \begin{itemize}
+    \item{Define binning scheme in terms of these coordinates}
+    \item{Ideally have a constant strong phase difference in each bin}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Histogram of strong phase difference}
+  Strong phase difference from amplitude model:
+  \begin{figure}
+    \includegraphics[width = 1\textwidth]{strongphase.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Histogram of strong phase difference}
+  Place cuts $x_3 > 0.8, x_4 > 0.8$:
+  \begin{figure}
+    \includegraphics[width = 1\textwidth]{strongphasecut.png}
+  \end{figure}
 \end{frame}
 
 \end{document}
